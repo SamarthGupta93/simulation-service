@@ -1,0 +1,15 @@
+[project]
+name = "simulation-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "audioop-lts>=0.2.2",
+    "deepgram-sdk>=7.2.0",
+    "fastapi>=0.136.1",
+    "google-genai>=2.5.0",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.47.0",
+    "websockets>=16.0",
+]
