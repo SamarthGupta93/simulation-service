@@ -227,7 +227,7 @@ class CallSession:
 
     async def run(self):
         """Greet caller, then loop: transcript → Gemini → TTS → audio out."""
-        await self._respond("Hello! How can I help you today?")
+        #await self._respond("Hello! How can I help you today?")
 
         while True:
             try:
